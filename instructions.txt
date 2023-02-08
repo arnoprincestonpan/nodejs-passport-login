@@ -1,0 +1,11 @@
+npm init
+
+npm i express ejs // install express, ejs
+
+npm i --save-dev nodemon dotenv // restart server automatically, every time we make changes
+
+npm i bcrypt // for passwords
+
+npm i passport passport-local express-session express-flash // for authentication, handled locally, session to store info across pages, flash for error msg for wrong creditentials 
+
+npm i method-override // we need to use this to use delete method  
